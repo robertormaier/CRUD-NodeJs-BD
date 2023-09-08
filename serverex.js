@@ -46,7 +46,7 @@ app.use((req, res) => {
     res.status(404).send('Página não encontrada')
 })
 
-// Inicializa o servidor HTTP na porta 3000
-app.listen(3000, function () {
-    console.log('Servidor rodando na porta 3000')
+// Inicializa o servidor HTTP na porta 4000
+app.listen(4000, function () {
+    console.log('Servidor rodando na porta 4000')
 })
